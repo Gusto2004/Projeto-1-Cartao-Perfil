@@ -21,8 +21,20 @@
   --signal: #2ec27e;
   --border: #e2e2ea;
 
-  --font-mono: "JetBrains Mono", "Courier New", monospace;
-  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+/* Quando o body tiver a classe "dark", estas cores substituem as de cima */
+body.dark {
+  --bg: #16161e;
+  --bg-card: #1e1e2e;
+  --text: #e4e4ef;
+  --text-muted: #9c9caa;
+  --accent: #7c93ff;
+  --accent-soft: #2a2a44;
+  --signal: #2ec27e;
+  --border: #33334a;
 }
 
 body {
@@ -259,6 +271,15 @@ a {
 
 .footer__links a:hover {
   color: var(--accent);
+}
+
+.toggle-tema {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
 }
 
 /* ===================================
