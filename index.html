@@ -1,106 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gusto — Developer</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gusto — Developer</title>
 
-  <!-- Fonte monoespaçada para os títulos (visual de código) + fonte normal para o texto -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Fonte monoespaçada para os títulos (visual de código) + fonte normal para o texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- HEADER / NAVEGAÇÃO -->
-  <header class="header">
-    <div class="container header__inner">
-      <a href="#" class="logo">&lt;gusto/&gt;</a>
-      <nav class="nav">
-        <a href="#sobre">sobre</a>
-        <a href="#projetos">projetos</a>
-        <a href="#contacto">contacto</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- HERO / SOBRE MIM -->
-  <section id="sobre" class="hero">
-    <div class="container">
-      <p class="hero__prompt">$ whoami</p>
-      <h1 class="hero__title">Olá, sou o Gusto.</h1>
-      <p class="hero__text">
-        Estudante de Informática Aplicada à Web, a aprender a programar a sério.
-        Este site é o registo dos projetos que vou construindo pelo caminho —
-        de exercícios simples a aplicações completas.
-      </p>
-      <a href="#projetos" class="btn">Ver projetos ↓</a>
-    </div>
-  </section>
-
-  <!-- PROJETOS -->
-  <section id="projetos" class="projects">
-    <div class="container">
-      <h2 class="section-title">Projetos</h2>
-
-      <div class="projects__grid">
-
-        <!-- Card de projeto 1 -->
-        <article class="card">
-          <div class="card__header">
-            <span class="card__dot"></span>
-            <span class="card__filename">todo-list.js</span>
-          </div>
-          <h3 class="card__title">Lista de Tarefas</h3>
-          <p class="card__text">
-            App para adicionar, concluir e remover tarefas, com dados guardados no browser.
-          </p>
-          <div class="card__tags">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">JavaScript</span>
-          </div>
-          <div class="card__links">
-            <a href="#" class="card__link">código →</a>
-            <a href="#" class="card__link">demo →</a>
-          </div>
-        </article>
-
-        <!-- Card de projeto 2 -->
-        <article class="card">
-          <div class="card__header">
-            <span class="card__dot"></span>
-            <span class="card__filename">weather-app.js</span>
-          </div>
-          <h3 class="card__title">App do Tempo</h3>
-          <p class="card__text">
-            Consulta o estado do tempo em qualquer cidade usando uma API externa.
-          </p>
-          <div class="card__tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">API</span>
-          </div>
-          <div class="card__links">
-            <a href="#" class="card__link">código →</a>
-            <a href="#" class="card__link">demo →</a>
-          </div>
-        </article>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER / NAVEGAÇÃO -->
+    <header class="header">
+      <div class="container header__inner">
+        <a href="#" class="logo">&lt;gusto/&gt;</a>
+        <nav class="nav">
+          <a href="#sobre">sobre</a>
+          <a href="#projetos">projetos</a>
+          <a href="#contacto">contacto</a>
+        </nav>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- FOOTER -->
-  <footer id="contacto" class="footer">
-    <div class="container footer__inner">
-      <p>&copy; 2026 Gusto. Feito com HTML, CSS e café.</p>
-      <div class="footer__links">
-        <a href="https://github.com/" target="_blank">GitHub</a>
-        <a href="mailto:o-teu-email@exemplo.com">Email</a>
+    <!-- HERO / SOBRE MIM -->
+    <section id="sobre" class="hero">
+      <div class="container">
+        <p class="hero__prompt">$ whoami</p>
+        <h1 class="hero__title">Olá, sou o Gusto.</h1>
+        <p class="hero__text">
+          Estudante de Informática Aplicada à Web, a aprender a programar a
+          sério. Este site é o registo dos projetos que vou construindo pelo
+          caminho — de exercícios simples a aplicações completas.
+        </p>
+        <a href="#projetos" class="btn">Ver projetos ↓</a>
       </div>
-    </div>
-  </footer>
+    </section>
 
-</body>
+    <!-- PROJETOS -->
+    <section id="projetos" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projects__grid">
+          <!-- Card de projeto 1 -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__dot"></span>
+              <span class="card__filename">todo-list.js</span>
+            </div>
+            <h3 class="card__title">Lista de Tarefas</h3>
+            <p class="card__text">
+              App para adicionar, concluir e remover tarefas, com dados
+              guardados no browser.
+            </p>
+            <div class="card__tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="card__links">
+              <a
+                href="https://github.com/Gusto2004/Projeto-2-To-do-List"
+                target="_blank"
+                class="card__link"
+                >código →</a
+              >
+              <a
+                href="https://gusto2004.github.io/Projeto-2-To-do-List/"
+                target="_blank"
+                class="card__link"
+                >demo →</a
+              >
+            </div>
+          </article>
+
+          <!-- Card de projeto 2 -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__dot"></span>
+              <span class="card__filename">weather-app.js</span>
+            </div>
+            <h3 class="card__title">App do Tempo</h3>
+            <p class="card__text">
+              Consulta o estado do tempo em qualquer cidade usando uma API
+              externa.
+            </p>
+            <div class="card__tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">API</span>
+            </div>
+            <div class="card__links">
+              <a href="#" class="card__link">código →</a>
+              <a href="#" class="card__link">demo →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="footer">
+      <div class="container footer__inner">
+        <p>&copy; 2026 Gusto. Feito com HTML, CSS e café.</p>
+        <div class="footer__links">
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="mailto:o-teu-email@exemplo.com">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
