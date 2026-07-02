@@ -22,4 +22,4 @@ Abre o `index.html` no browser, ou usa a extensão "Live Server" no VSCode para 
 
 - [ ] Substituir os projetos placeholder pelos meus projetos reais
 - [ ] Adicionar links reais de GitHub e email
-- [ ] Publicar no GitHub Pages
+- [ ] Publicar no GitHub Pages"# Projeto-1-Cartao-Perfil" 
