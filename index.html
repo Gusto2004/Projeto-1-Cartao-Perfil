@@ -42,7 +42,7 @@
         <p class="hero__text">
           Estudante de Informática Aplicada à Web, a aprender a programar a
           sério. Este site é o registo dos projetos que vou construindo pelo
-          caminho — de exercícios simples a aplicações completas.
+          caminho — de exercícios simples a aplicações fullstack.
         </p>
         <a href="#projetos" class="btn">Ver projetos ↓</a>
       </div>
@@ -54,7 +54,91 @@
         <h2 class="section-title">Projetos</h2>
 
         <div class="projects__grid">
-          <!-- Card de projeto 1 -->
+          <!-- Card MoodBoard (projeto em destaque) -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__dot"></span>
+              <span class="card__filename">moodboard.js</span>
+            </div>
+            <h3 class="card__title">MoodBoard — Diário de Humor</h3>
+            <p class="card__text">
+              App fullstack para registar o humor diário, com backend próprio em
+              Express e base de dados SQLite. Os dados persistem de forma real.
+            </p>
+            <div class="card__tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="card__links">
+              <a
+                href="https://github.com/Gusto2004/Projeto-6-MoodBoard"
+                target="_blank"
+                class="card__link"
+                >código →</a
+              >
+            </div>
+          </article>
+
+          <!-- Card App do Tempo -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__dot"></span>
+              <span class="card__filename">weather-app.js</span>
+            </div>
+            <h3 class="card__title">App do Tempo</h3>
+            <p class="card__text">
+              Aplicação que mostra o tempo atual de qualquer cidade, com ícones
+              dinâmicos consoante as condições, consumindo uma API externa.
+            </p>
+            <div class="card__tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">API</span>
+            </div>
+            <div class="card__links">
+              <a
+                href="https://github.com/Gusto2004/Projeto-3-Weather-App"
+                target="_blank"
+                class="card__link"
+                >código →</a
+              >
+              <a
+                href="https://gusto2004.github.io/Projeto-3-Weather-App/"
+                target="_blank"
+                class="card__link"
+                >demo →</a
+              >
+            </div>
+          </article>
+
+          <!-- Card API de Tarefas (Backend) -->
+          <article class="card">
+            <div class="card__header">
+              <span class="card__dot"></span>
+              <span class="card__filename">server.js</span>
+            </div>
+            <h3 class="card__title">API de Tarefas (Backend)</h3>
+            <p class="card__text">
+              API REST com operações completas de criar, ler, atualizar e apagar
+              tarefas, construída com Node.js e Express.
+            </p>
+            <div class="card__tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">API REST</span>
+            </div>
+            <div class="card__links">
+              <a
+                href="https://github.com/Gusto2004/Projeto-4-Backend-To-do"
+                target="_blank"
+                class="card__link"
+                >código →</a
+              >
+            </div>
+          </article>
+
+          <!-- Card Lista de Tarefas -->
           <article class="card">
             <div class="card__header">
               <span class="card__dot"></span>
@@ -62,8 +146,8 @@
             </div>
             <h3 class="card__title">Lista de Tarefas</h3>
             <p class="card__text">
-              Uma aplicação web para gerir tarefas, permitindo adicionar, marcar
-              como concluídas e remover tarefas.
+              Aplicação web para gerir tarefas, permitindo adicionar, marcar como
+              concluídas e remover, com os dados guardados no browser.
             </p>
             <div class="card__tags">
               <span class="tag">HTML</span>
@@ -86,61 +170,7 @@
             </div>
           </article>
 
-          <!-- Card de projeto 2 -->
-          <article class="card">
-            <div class="card__header">
-              <span class="card__dot"></span>
-              <span class="card__filename">weather-app.js</span>
-            </div>
-            <h3 class="card__title">App do Tempo</h3>
-            <p class="card__text">
-              Uma aplicação que mostra o tempo atual e a previsão para os próximos
-              dias, usando a API OpenWeatherMap.
-            </p>
-            <div class="card__tags">
-              <span class="tag">JavaScript</span>
-              <span class="tag">API</span>
-            </div>
-            <div class="card__links">
-              <a
-                href="https://github.com/Gusto2004/Projeto-3-Weather-App"
-                target="_blank"
-                class="card__link"
-                >código →</a
-              >
-              <a
-                href="https://gusto2004.github.io/Projeto-3-Weather-App/"
-                target="_blank"
-                class="card__link"
-                >demo →</a
-              >
-            </div>
-          </article>
-          <!-- Card de projeto 3 -->
-          <article class="card">
-            <div class="card__header">
-              <span class="card__dot"></span>
-              <span class="card__filename">server.js</span>
-            </div>
-            <h3 class="card__title">API de Tarefas (Backend)</h3>
-            <p class="card__text">
-              Uma API REST para gerir tarefas, construída com Node.js e Express.
-            </p>
-            <div class="card__tags">
-              <span class="tag">Node.js</span>
-              <span class="tag">Express</span>
-              <span class="tag">API REST</span>
-            </div>
-            <div class="card__links">
-              <a
-                href="https://github.com/Gusto2004/Projeto-4-Backend-To-do"
-                target="_blank"
-                class="card__link"
-                >código →</a
-              >
-            </div>
-          </article>
-          <!-- Card de projeto 5 -->
+          <!-- Card Calculadora -->
           <article class="card">
             <div class="card__header">
               <span class="card__dot"></span>
@@ -148,8 +178,8 @@
             </div>
             <h3 class="card__title">Calculadora</h3>
             <p class="card__text">
-              Uma calculadora simples feita com HTML, CSS e JavaScript, com
-              suporte a operações básicas.
+              Calculadora com as quatro operações básicas, suporte a decimais e
+              tratamento de erros como a divisão por zero.
             </p>
             <div class="card__tags">
               <span class="tag">HTML</span>
@@ -171,31 +201,6 @@
               >
             </div>
           </article>
-          <!-- Card de projeto 6 -->
-          <article class="card">
-            <div class="card__header">
-              <span class="card__dot"></span>
-              <span class="card__filename">moodboard.js</span>
-            </div>
-            <h3 class="card__title">MoodBoard</h3>
-            <p class="card__text">
-              Um diário de humor onde podes registrar como te sentes todos os dias.
-            </p>
-            <div class="card__tags">
-              <span class="tag">Node.js</span>
-              <span class="tag">Express</span>
-              <span class="tag">SQLite</span>
-              <span class="tag">JavaScript</span>
-            </div>
-            <div class="card__links">
-              <a
-                href="https://github.com/Gusto2004/Projeto-6-MoodBoard"
-                target="_blank"
-                class="card__link"
-                >código →</a
-              >
-            </div>
-          </article>
         </div>
       </div>
     </section>
@@ -206,6 +211,11 @@
         <p>&copy; 2026 Gusto. Feito com HTML, CSS e muito café.</p>
         <div class="footer__links">
           <a href="https://github.com/Gusto2004" target="_blank">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/vitorgomes1507/"
+            target="_blank"
+            >LinkedIn</a
+          >
           <a href="mailto:gusto.main1507@gmail.com">Email</a>
         </div>
       </div>
