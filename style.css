@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 /* ===================================
    TOKENS — cores, fontes e espaçamentos num só sítio
    Assim, se quiseres mudar o tema todo, só mexes aqui.
@@ -42,6 +47,9 @@ body {
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.6;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 .container {
@@ -53,6 +61,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* Foco visível para navegação por teclado (acessibilidade) */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 /* ===================================
@@ -79,6 +93,7 @@ a {
 .nav {
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 
 .nav a {
@@ -148,7 +163,7 @@ a {
 .btn:hover,
 .btn:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(67, 97, 238, 0.25);
+  box-shadow: 0 8px 20px rgba(124, 147, 255, 0.3);
 }
 
 /* ===================================
@@ -180,12 +195,14 @@ a {
   gap: 12px;
   transition:
     transform 0.2s,
-    box-shadow 0.2s;
+    box-shadow 0.2s,
+    border-color 0.2s;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(30, 30, 46, 0.08);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  border-color: var(--accent);
 }
 
 .card__header {
