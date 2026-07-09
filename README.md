@@ -21,6 +21,19 @@ Página pessoal com visual inspirado num editor de código, que reúne os meus p
 - CSS3 (Flexbox, Grid e variáveis CSS)
 - JavaScript (DOM, eventos, `localStorage`)
 
+## Projetos em destaque
+
+Os cards da secção "Projetos" apontam para estes repositórios:
+
+| Projeto                     | Tecnologias                | Código                                                         | Demo                                                       |
+| --------------------------- | -------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------- |
+| Lista de Tarefas (React)    | React, Vite                | [código](https://github.com/Gusto2004/Projeto-7-React-Todo)    | [demo](https://gusto2004.github.io/Projeto-7-React-Todo/)  |
+| MoodBoard — Diário de Humor | Node.js, Express, SQLite   | [código](https://github.com/Gusto2004/Projeto-6-MoodBoard)     | —                                                          |
+| Calculadora                 | HTML, CSS, JavaScript      | [código](https://github.com/Gusto2004/Projeto-5-Calculadora)   | [demo](https://gusto2004.github.io/Projeto-5-Calculadora/) |
+| API de Tarefas (Backend)    | Node.js, Express, API REST | [código](https://github.com/Gusto2004/Projeto-4-Backend-To-do) | —                                                          |
+| App do Tempo                | JavaScript, API externa    | [código](https://github.com/Gusto2004/Projeto-3-Weather-App)   | [demo](https://gusto2004.github.io/Projeto-3-Weather-App/) |
+| Lista de Tarefas            | HTML, CSS, JavaScript      | [código](https://github.com/Gusto2004/Projeto-2-To-do-List)    | [demo](https://gusto2004.github.io/Projeto-2-To-do-List/)  |
+
 ## Como correr
 
 Abre o `index.html` no browser, ou usa a extensão "Live Server" no VSCode para veres as alterações em tempo real.
