@@ -1,26 +1,26 @@
-const botaoTema = document.querySelector('#toggle-tema');
+const themeButton = document.querySelector('#theme-toggle');
 const body = document.body;
 
-// Ao carregar a página, aplica o tema guardado (se existir)
-const temaGuardado = localStorage.getItem('tema');
+// When the page loads, apply the saved theme (if there is one)
+const savedTheme = localStorage.getItem('theme');
 
-if (temaGuardado === 'claro') {
+if (savedTheme === 'light') {
   body.classList.remove('dark');
-  botaoTema.textContent = '🌙';
+  themeButton.textContent = '🌙';
 } else {
   body.classList.add('dark');
-  botaoTema.textContent = '☀️';
+  themeButton.textContent = '☀️';
 }
 
-// Ao clicar, alterna o tema e guarda a escolha
-botaoTema.addEventListener('click', function () {
+// On click, toggle the theme and save the choice
+themeButton.addEventListener('click', function () {
   body.classList.toggle('dark');
 
   if (body.classList.contains('dark')) {
-    botaoTema.textContent = '☀️';
-    localStorage.setItem('tema', 'escuro');
+    themeButton.textContent = '☀️';
+    localStorage.setItem('theme', 'dark');
   } else {
-    botaoTema.textContent = '🌙';
-    localStorage.setItem('tema', 'claro');
+    themeButton.textContent = '🌙';
+    localStorage.setItem('theme', 'light');
   }
 });

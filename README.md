@@ -1,49 +1,49 @@
-# Cartão de Perfil — Portefólio
+# Profile Card — Portfolio
 
-Página pessoal com visual inspirado num editor de código, que reúne os meus projetos de programação. Feita em HTML, CSS e JavaScript puro (sem frameworks).
+A personal page with a code-editor look that brings together my programming projects. Built with plain HTML, CSS and JavaScript (no frameworks).
 
-## Estrutura
+## Structure
 
-- **Header** — logo/nome, navegação e botão de tema
-- **Hero** — apresentação pessoal
-- **Projetos** — cards com os projetos, ligados ao respetivo código e demo
-- **Footer** — links de contacto (GitHub, LinkedIn, email)
+- **Header**: logo/name, navigation and theme button
+- **Hero**: personal introduction
+- **Projects**: cards with my projects, linked to their code and demo
+- **Footer**: contact links (GitHub, LinkedIn, email)
 
-## Funcionalidades
+## Features
 
-- Modo escuro / claro com botão de alternância, que memoriza a preferência entre visitas (`localStorage`)
-- Navegação suave entre secções (scroll suave)
-- Layout responsivo (adapta-se a telemóvel)
+- Dark / light mode with a toggle button, remembered between visits (`localStorage`)
+- Smooth scrolling between sections
+- Responsive layout (adapts to mobile)
 
-## Tecnologias
+## Technologies
 
 - HTML5
-- CSS3 (Flexbox, Grid e variáveis CSS)
-- JavaScript (DOM, eventos, `localStorage`)
+- CSS3 (Flexbox, Grid and CSS variables)
+- JavaScript (DOM, events, `localStorage`)
 
-## Projetos em destaque
+## Featured projects
 
-Os cards da secção "Projetos" apontam para estes repositórios:
+The cards in the "Projects" section link to these repositories:
 
-| Projeto                     | Tecnologias                | Código                                                         | Demo                                                       |
-| --------------------------- | -------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------- |
-| Lista de Tarefas (React)    | React, Vite                | [código](https://github.com/Gusto2004/Projeto-7-React-Todo)    | [demo](https://gusto2004.github.io/Projeto-7-React-Todo/)  |
-| MoodBoard — Diário de Humor | Node.js, Express, SQLite   | [código](https://github.com/Gusto2004/Projeto-6-MoodBoard)     | —                                                          |
-| Calculadora                 | HTML, CSS, JavaScript      | [código](https://github.com/Gusto2004/Projeto-5-Calculadora)   | [demo](https://gusto2004.github.io/Projeto-5-Calculadora/) |
-| API de Tarefas (Backend)    | Node.js, Express, API REST | [código](https://github.com/Gusto2004/Projeto-4-Backend-To-do) | —                                                          |
-| App do Tempo                | JavaScript, API externa    | [código](https://github.com/Gusto2004/Projeto-3-Weather-App)   | [demo](https://gusto2004.github.io/Projeto-3-Weather-App/) |
-| Lista de Tarefas            | HTML, CSS, JavaScript      | [código](https://github.com/Gusto2004/Projeto-2-To-do-List)    | [demo](https://gusto2004.github.io/Projeto-2-To-do-List/)  |
+| Project                  | Technologies               | Code                                                         | Demo                                                       |
+| ------------------------ | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| To-do List (React)       | React, Vite                | [code](https://github.com/Gusto2004/Projeto-7-React-Todo)    | [demo](https://gusto2004.github.io/Projeto-7-React-Todo/)  |
+| MoodBoard — Mood Diary   | Node.js, Express, SQLite   | [code](https://github.com/Gusto2004/Projeto-6-MoodBoard)     | —                                                          |
+| Calculator               | HTML, CSS, JavaScript      | [code](https://github.com/Gusto2004/Projeto-5-Calculadora)   | [demo](https://gusto2004.github.io/Projeto-5-Calculadora/) |
+| To-do REST API (Backend) | Node.js, Express, REST API | [code](https://github.com/Gusto2004/Projeto-4-Backend-To-do) | —                                                          |
+| Weather App              | JavaScript, external API   | [code](https://github.com/Gusto2004/Projeto-3-Weather-App)   | [demo](https://gusto2004.github.io/Projeto-3-Weather-App/) |
+| To-do List               | HTML, CSS, JavaScript      | [code](https://github.com/Gusto2004/Projeto-2-To-do-List)    | [demo](https://gusto2004.github.io/Projeto-2-To-do-List/)  |
 
-## Como correr
+## How to run
 
-Abre o `index.html` no browser, ou usa a extensão "Live Server" no VSCode para veres as alterações em tempo real.
+Open `index.html` in your browser, or use the "Live Server" extension in VS Code to see changes in real time.
 
 ## Demo
 
-🔗 [Ver site ao vivo](https://gusto2004.github.io/Projeto-1-Cartao-Perfil/)
+🔗 [View the live site](https://gusto2004.github.io/Projeto-1-Cartao-Perfil/)
 
-## Próximos passos
+## Next steps
 
-- [ ] Adicionar uma secção "Sobre mim" mais detalhada
-- [ ] Incluir capturas de ecrã de cada projeto nos cards
-- [ ] Adicionar um domínio personalizado
+- [ ] Add a more detailed "About me" section
+- [ ] Include screenshots of each project in the cards
+- [ ] Add a custom domain

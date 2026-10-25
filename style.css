@@ -1,5 +1,5 @@
 /* ===================================
-   RESET BÁSICO — tira espaçamentos padrão do browser
+   BASIC RESET — removes the browser's default spacing
    =================================== */
 * {
   margin: 0;
@@ -13,8 +13,8 @@ html {
 }
 
 /* ===================================
-   TOKENS — cores, fontes e espaçamentos num só sítio
-   Assim, se quiseres mudar o tema todo, só mexes aqui.
+   TOKENS — colors, fonts and spacing in one place
+   So if you want to change the whole theme, you only edit here.
    =================================== */
 :root {
   --bg: #f7f7fa;
@@ -30,7 +30,7 @@ html {
   --font-body: 'Inter', system-ui, sans-serif;
 }
 
-/* Quando o body tiver a classe "dark", estas cores substituem as de cima */
+/* When the body has the "dark" class, these colors replace the ones above */
 body.dark {
   --bg: #16161e;
   --bg-card: #1e1e2e;
@@ -63,7 +63,7 @@ a {
   text-decoration: none;
 }
 
-/* Foco visível para navegação por teclado (acessibilidade) */
+/* Visible focus for keyboard navigation (accessibility) */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
@@ -167,7 +167,7 @@ a {
 }
 
 /* ===================================
-   PROJETOS
+   PROJECTS
    =================================== */
 .projects {
   padding: 60px 0 100px;
@@ -290,7 +290,7 @@ a {
   color: var(--accent);
 }
 
-.toggle-tema {
+.theme-toggle {
   background: none;
   border: none;
   font-size: 1.2rem;
@@ -300,7 +300,7 @@ a {
 }
 
 /* ===================================
-   RESPONSIVIDADE — telemóvel
+   RESPONSIVE — mobile
    =================================== */
 @media (max-width: 600px) {
   .header__inner {
